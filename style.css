@@ -1,0 +1,288 @@
+/** GLOBAL STYLES **/
+
+body{
+	font-family: 'Lato', sans-serif !important;
+	color: #35495b;
+	height: 100%;
+	font-size: 1.5em !important;
+	font-weight: 300;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.row{
+	margin: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+.navbar{
+	margin: 0 auto;
+	background: #ecf0f1;
+	border: none;
+	border-radius: 0;
+	text-transform: uppercase;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+	
+.navbar-nav{
+	float: none !important;
+}
+
+.navbar-default a{
+	color: #35495b !important;
+	font-weight: 400;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background: transparent;
+	font-weight: 400 !important;
+	border-bottom: 1px solid;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #35495b;
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+h4{
+	color: #fff;
+	font-weight: 300;
+	font-size: 1em;
+	background: #5dbd87;
+	text-align: center;
+	padding: 10px 0;
+	width: 87%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+h5{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.button{
+	line-height: 1;
+	outline: none;
+	border: none;
+	background: #5dbd87;
+	color: #fff;
+	font-weight: 300;
+	padding: 10px;
+}
+
+.button:hover, .button-small:hover{
+	background: #70e19f;
+}
+
+.button-small{
+	line-height: 1;
+	outline: none;
+	border: none;
+	background: #5dbd87;
+	color: #fff;
+	font-weight: 300;
+	padding: 15px 20px;
+	font-size: 1.2em;
+	margin: 10px;
+}
+
+em{
+	font-style: normal;
+	font-weight: 600;
+}
+
+.footer{
+	background: #ecf0f1;
+	margin: 0;
+	padding: 15px;
+}
+
+.footer p{
+	font-size: 0.7em;
+	margin: 0;
+}
+
+.social{
+	background: #2283a4;
+	padding: 30px 0;
+	margin: 0;
+}
+
+.social a{
+	color: #fff;
+	font-weight: 300;
+}
+
+.social p{
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 60%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text:align: center;
+    }
+}
+
+/** HOMEPAGE STYLES **/
+
+.jumbotron{
+	background: #ecf0f1;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 0;
+	padding: 50px 0;
+}
+
+/** INNER PAGE STYLES **/
+
+.heading{
+	padding-top: 70px;
+	width: 100%;
+	background: #ecf0f1;
+}
+
+.page-intro{
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+
+.page-intro p{
+	font-size: 1.3em;
+	line-height: 2;
+}
+
+.page-intro ul{
+	margin-bottom: 40px;
+}
+
+.section{
+	text-align: center;
+	padding: 0 0 40px 0;
+	color: #35495b;
+}
+
+.section p{
+	font-size: 1.2em;
+	line-height: 2;
+	padding: 10px 0;
+}
+
+.section ul{
+}
+
+.section li, .page-intro li{
+	text-align: left;
+	font-size: 1.3em;
+	line-height: 2;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.section i, .page-intro i{
+	text-indent: -20px;
+	color: #587692;
+}
+
+.caption{
+	font-size: 1em !important;
+}
+
+.column p{
+	padding: 0;
+}
+
+.white{
+	background: #fff;
+}
+
+/** OUR SECTORS PAGE STYES **/
+
+.sector{
+	height: 200px;
+	text-align: left;
+	padding: 0 40px 40px 40px;
+}
+
+/** CONTCT US PAGE STYLES **/
+
+.contact-detail{
+	color: #2283a4;
+	font-weight: 400;
+}
+
+.map{
+	padding: 0;
+	margin: 0;
+}
+
+/** FORM STYLES **/
+
+input, textarea{
+	border: 1px solid #d5d5d5;
+	font-weight: 300;
+	font-size: 0.8em;
+	padding: 4px; 
+}
+
+label{
+	text-align: left;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+#contact-form span{
+	color: red;
+	list-style: none;
+	padding: 0;
+	font-weight: 300;
+	font-size: 0.7em;
+}
+
+#contact-form i{
+	color: #fff;
+}
