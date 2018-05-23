@@ -261,12 +261,17 @@ em{
 }
 
 /** FORM STYLES **/
+form{
+	text-align: left;
+	margin-left: 100px;
+}
 
 input, textarea{
 	border: 1px solid #d5d5d5;
 	font-weight: 300;
 	font-size: 0.8em;
-	padding: 4px;
+	padding: 10px;
+	margin-bottom: 20px;
 }
 
 label{
